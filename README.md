@@ -4,7 +4,6 @@
 ![Image](https://github.com/user-attachments/assets/74863749-954d-4117-a56e-bd5da10fb52d)
 
 ## API 명세
-### 사용자 API
 |메서드|엔드포인트|설명|
 |------|---|---|
 |POST|`/users`|회원가입|
