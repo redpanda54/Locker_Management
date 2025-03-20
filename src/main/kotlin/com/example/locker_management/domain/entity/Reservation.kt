@@ -26,7 +26,7 @@ data class Reservation(
     @Column(name = "expired_at")
     val expiredAt: LocalDateTime? = null,
 
-    @Column(nullable = false)
+    @Column(name = "reservation_status", nullable = false)
     @Enumerated(EnumType.STRING)
     val status: ReservationStatus = ReservationStatus.REQUESTED
 )

@@ -17,7 +17,7 @@ data class Locker(
     @Column
     val location: String? = null,
 
-    @Column(nullable = false)
+    @Column(name = "locker_status", nullable = false)
     @Enumerated(EnumType.STRING)
     val status: LockerStatus = LockerStatus.AVAILABLE,
 
